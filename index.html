@@ -1,10 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <body>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inês Mendes</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #f6f6f7;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: white;
+      padding: 40px 50px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 320px;
+    }
+    h1 {
+      margin-bottom: 25px;
+      font-size: 28px;
+      font-weight: 600;
+    }
+    .link-card {
+      display: block;
+      margin: 15px 0;
+      padding: 15px;
+      background: #f0f0f5;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      transition: 0.2s;
+      border: 1px solid transparent;
+    }
+    .link-card:hover {
+      background: #e4e4ee;
+      transform: translateY(-2px);
+      border-color: #d0d0e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
     <h1>Inês Mendes</h1>
-    <ul>
-      <li><a href="CV.pdf">CV</a></li>
-      <li><a href="ProjetoPedagogico2025.pdf">Projeto Pedacógico 2025</a></li>
-    </ul>
-  </body>
+    <a class="link-card" href="CV.pdf" target="_blank">📄 CV</a>
+    <a class="link-card" href="ProjetoPedagogico2025.pdf" target="_blank">📘 Projeto Pedagógico 2025</a>
+  </div>
+</body>
 </html>

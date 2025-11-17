@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inês Mendes</title>
+  <title>Curriculum Vitae</title>
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -13,21 +13,39 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
     }
+ 
     .container {
       background: white;
       padding: 40px 50px;
       border-radius: 12px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.1);
       text-align: center;
-      width: 320px;
+      width: 340px;
     }
+ 
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+ 
     h1 {
-      margin-bottom: 25px;
-      font-size: 28px;
+      margin: 0;
+      font-size: 26px;
       font-weight: 600;
     }
+ 
+    .subtitle {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 25px;
+      line-height: 1.4;
+    }
+ 
     .link-card {
       display: block;
       margin: 15px 0;
@@ -40,6 +58,7 @@
       transition: 0.2s;
       border: 1px solid transparent;
     }
+ 
     .link-card:hover {
       background: #e4e4ee;
       transform: translateY(-2px);
@@ -49,9 +68,14 @@
 </head>
 <body>
   <div class="container">
+    <img src="photo.jpg" alt="Inês Mendes">
     <h1>Inês Mendes</h1>
-    <a class="link-card" href="CV.pdf" target="_blank">📄 Curriculum Vitæ (CV)</a>
-    <a class="link-card" href="ProjetoPedagogico2025.pdf" target="_blank">📘 Projeto Pedagógico 2025</a>
+    <div class="subtitle">
+      PhD<br>
+      Communication Sciences | Journalism
+    </div>
+ 
+    <a class="link-card" href="CV.pdf" target="_blank">📄 CV</a>
+    <a class="link-card" href="PedagogicalProject2025.pdf" target="_blank">📘 Pedagogical Project 2025</a>
   </div>
 </body>
-</html>
